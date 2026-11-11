@@ -33,7 +33,7 @@ For Demos 3 and 4, run the fixture helper from that demo's folder before the pro
 
 ## Pending materials
 
-Demo 06, the interactive game, is omitted while the provenance and redistribution rights for its sprites are clarified. It has not been accepted through an interactive user run. The final slide PDF is also forthcoming and is not included in this release.
+Demo 06, the interactive game, remains omitted while standalone redistribution permission is verified for the two rocket reference images used to generate its player and bug artwork: `blue-forward-spaceship-with-two-robots.png` and `pink-launch-rocket-with-two-robots.png`. These images are not part of the currently verified MIT-licensed .NET Conf template copy, and no separate redistribution permission was confirmed. The game has not been accepted through an interactive user run. The final slide PDF is also not approved and is not included in this release.
 
 ## Attribution and reuse
 
@@ -41,4 +41,4 @@ Demo 06, the interactive game, is omitted while the provenance and redistributio
 - Demo 2's microphone capture and live-print pattern follows the author's public [`11-foundrylocal-live-transcription` sample](https://github.com/elbruno/26-07-15-AINET-LocalAI-MAF/blob/main/samples/11-foundrylocal-live-transcription/Program.cs), as well as the .NET Blog article linked above.
 - Demo 4's S1-Mini conversion is based on [`elbruno/s1-mini-onnx`](https://huggingface.co/elbruno/s1-mini-onnx), an unofficial conversion of [`superwhisper/s1-mini`](https://huggingface.co/superwhisper/s1-mini). Review the upstream model terms, including its naming clause, before using separately acquired weights. The ElBruno.S1Mini library's MIT license is separate from the model terms.
 
-This release does not include model weights. No project-wide code license is specified here; this README does not grant one. Third-party packages and models retain their own applicable terms.
+This release does not include model weights. The root [MIT license](LICENSE) applies to original demo code and documentation authored by El Bruno. It does not grant rights to third-party models, packages, branding, reference artwork, or other materials, which remain subject to their own applicable terms and notices.
