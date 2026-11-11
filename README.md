@@ -15,6 +15,10 @@ This is an audience-facing source release for the .NET Conf 2026 session **Small
 
 Each folder contains an independent .NET project. The shared [`demos/tools/PrepareSpeechModel`](demos/tools/PrepareSpeechModel/) utility prepares the Foundry Local speech model used by Demos 1-4. Demos 1, 3, and 4 include a helper to generate a synthetic WAV locally; no recorded audio or model weights are included. Demo 6's [contact sheet](demos/06-local-model-game/assets/contact-sheet.png) previews its generated sprites.
 
+### Demo 6 screenshot
+
+[![Game title screen for Small Models, Big .NET Energy, with a rocket and Local Mission status panel](screenshots/small-models-game.png)](screenshots/small-models-game.png)
+
 ## Slides
 
 The confirmed final v09 presentation is available as a [slide-only PDF](slides/Small-Models-Big-DotNet-Energy-v09.pdf). The editable PowerPoint and speaker notes are not included.
