@@ -15,6 +15,10 @@ This is an audience-facing source release for the .NET Conf 2026 session **Small
 
 Each folder contains an independent .NET project. The shared [`demos/tools/PrepareSpeechModel`](demos/tools/PrepareSpeechModel/) utility prepares the Foundry Local speech model used by Demos 1-4. Demos 1, 3, and 4 include a helper to generate a synthetic WAV locally; no recorded audio or model weights are included. Demo 6's [contact sheet](demos/06-local-model-game/assets/contact-sheet.png) previews its generated sprites.
 
+## Slides
+
+The confirmed final v09 presentation is available as a [slide-only PDF](slides/Small-Models-Big-DotNet-Energy-v09.pdf). The editable PowerPoint and speaker notes are not included.
+
 ## Requirements and running
 
 - Windows x64 and the .NET SDK selected by [`demos/global.json`](demos/global.json), version 11.0.100 with the latest patch.
@@ -33,9 +37,9 @@ dotnet run
 
 For Demos 3 and 4, run the fixture helper from that demo's folder before the project. For Demo 4, also stage the already-cached S1-Mini package with `tools\Stage-FoundryS1Mini.ps1` from its folder. Demo 2 opens the microphone; do not capture audio without fresh approval. Demo 5 can be run directly after its local Ollama prerequisites are met. Run Demo 6 with `dotnet run` from its folder; see its README for controls and optional voice setup. The demos use local inference and do not silently fall back to a cloud service. Generated fixtures, model weights, and other large runtime assets are intentionally not committed.
 
-## Pending materials
+## Pending demo verification
 
-Demo 6 is included as a review build, but has not been accepted through an interactive user run. Interactive rendering, the combined voice-and-Decisions flow, and recording-machine readiness remain unverified. The final slide PDF is not included because no version has been confirmed as final.
+Demo 6 is included as a review build, but has not been accepted through an interactive user run. Interactive rendering, the combined voice-and-Decisions flow, and recording-machine readiness remain unverified.
 
 ## Attribution and reuse
 
